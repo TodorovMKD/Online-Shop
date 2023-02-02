@@ -1,0 +1,158 @@
+nav {
+    background-color: rgb(79, 74, 74);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    font-size: 20px;
+  }
+  
+  .secondary-nav {
+    background-color: white;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .contact-info {
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  
+  .market-heading {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 20px;
+    color: orange;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    height: 25px;
+    width: 200px;
+    padding-right: 10px;
+  }
+  
+  button {
+    background-color: orange;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+
+  .tertiary-nav {
+    background-color: orange;
+    height: 40px;
+  }
+
+  .header {
+    background-image: url(https://food-ubc.b-cdn.net/wp-content/uploads/2020/02/Save-Money-On-Groceries_UBC-Food-Services.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: white;
+    text-shadow: 1px 1px #333;
+  }
+
+  .offers-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #333;
+    text-shadow: 1px 1px #ddd;
+  }
+  
+  .underline {
+    width: 150px;
+    height: 3px;
+    background-color: lightblue;
+    margin: auto;
+  }
+  
+  .card-section {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 900px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #ddd;
+  }
+  
+  .card-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: lightgray;
+  }
+  
+  .card-navbar a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .left-button {
+    background-color: orange;
+    width: 200px;
+  }
+
+  .right-button {
+    background-color: orange;
+    width: 200px;
+  }
+
+  .bold {
+    font-weight: bold;
+    font-size: 20px;
+  }
+   
+  .italic {
+    font-style: italic;
+  }
